@@ -1,0 +1,42 @@
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" type="text/css" href="task2.css">
+    <title>Mini calculator</title>
+</head>
+<body>
+    <h1>MINI CALCULATOR</h1>
+    <p>
+        <span id="operator1"></span>
+        <span id="operator"></span>
+        <span id="operator2"></span>
+    </p>
+    <div class="container" id="d1">
+        <input type="text" id="in1">
+        <br>
+    <button onclick="h1('1')" onkeydown="func(event)">1</button>
+    <button onclick="h1('2')" onkeydown="func(event)">2</button>
+    <button onclick="h1('3')" onkeydown="func(event)">3</button>
+    <br>
+    <button onclick="h1('4')" onkeydown="func(event)">4</button>
+    <button onclick="h1('5')" onkeydown="func(event)">5</button>
+    <button onclick="h1('6')" onkeydown="func(event)">6</button>
+    <br>
+    <button onclick="h1('7')" onkeydown="func(event)">7</button>
+    <button onclick="h1('8')" onkeydown="func(event)">8</button>
+    <button onclick="h1('9')" onkeydown="func(event)">9</button>
+    <br>
+    <button onclick="h1('+')" onkeydown="func(event)">+</button>
+    <button onclick="h1('0')" onkeydown="func(event)">0</button>
+    <button onclick="h1('-')" onkeydown="func(event)">-</button>
+    <br>
+    <button onclick="h1('*')" onkeydown="func(event)">*</button>
+    <button onclick="h1('/')" onkeydown="func(event)">/</button>
+    <button onclick="h1('=')" onkeydown="solve(event)">=</button>
+    <br>
+    <button onclick="clear()">clear</button>
+    </div>
+</body>
+</html>
